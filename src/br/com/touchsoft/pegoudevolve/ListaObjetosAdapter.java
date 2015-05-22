@@ -39,7 +39,7 @@ public class ListaObjetosAdapter extends BaseAdapter {
 			LayoutInflater inflater = LayoutInflater.from(parent.getContext());
 			convertView = inflater.inflate(R.layout.activity_lista_item, parent, false);
 		}
-		//TODO: Acrescentar as datas
+		//TODO: Acrescentar as datas, ok?
 		TextView itemViewDescricao = (TextView) convertView.findViewById(R.id.item_view_descricao);
 		TextView itemViewQuem      = (TextView) convertView.findViewById(R.id.item_view_quem);
 		itemViewDescricao.setText(objeto.getDescricao());
