@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   	<!-- Botões Cancelar e Salvar -->
+    <Button
+        android:id="@+id/btn_cancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/btn_cancelar_label" />
+
+    <Button
+        android:id="@+id/btn_salvar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/btn_cancelar"
+        android:text="@string/btn_salvar_label"/>
+    
+   	<!-- Descrição -->
+    <TextView 
+        android:id="@+id/label_txt_descricao"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/btn_salvar"/>
+    
+    <EditText
+        android:id="@+id/txt_descricao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_txt_descricao"
+        android:inputType="text" />
+    
+   	<!-- Quem -->
+    <TextView 
+        android:id="@+id/label_txt_quem"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/txt_descricao"/>
+    
+    <EditText
+        android:id="@+id/txt_quem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/label_txt_quem"
+        android:inputType="text"
+        />
+    
+   	<!-- Data Ação -->
+    <TextView 
+        android:id="@+id/label_datePicker_data_acao"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/txt_quem"/>
+     
+    <EditText
+        android:id="@+id/datePicker_data_acao"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:onClick="showDatePickerDialog"
+        android:layout_below="@id/label_datePicker_data_acao"/>
+    
+   	<!-- Data Fim -->
+    <TextView 
+        android:id="@+id/label_datePicker_data_fim"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/datePicker_data_acao"/>
+     
+    <EditText
+        android:id="@+id/datePicker_data_fim"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:onClick="showDatePickerDialog"
+        android:layout_below="@id/label_datePicker_data_fim"/>
+    
+
+</RelativeLayout>

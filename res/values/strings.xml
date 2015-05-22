@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Aplicação Main -->
+    <string name="app_name">Pegou Devolve</string>
+    <string name="btn_emprestar_label">Emprestar</string>
+    <string name="btn_pregaremprestado_label">Pegar emprestado</string>
+
+    <!-- Comum para emprestar e pegar emprestado -->
+    <string name="btn_cancelar_label">Cancelar</string>
+    <string name="btn_salvar_label">Salvar</string>
+   
+    <!-- Activity Lista Emprestou -->
+    <string name="title_activity_lista_emprestou">Emprestou</string>
+    <string name="btn_novo_emprestimo_label">Novo Empréstimo</string>
+    
+    <!-- Activity Emprestar -->
+    <string name="title_activity_emprestar">Emprestar</string>
+    <string name="txt_obj_emprestado_label">O que emprestou?</string>
+    <string name="txt_para_quem_emprestou_label">Para quem emprestou?</string>
+    <string name="datePicker_emprestimo_label">Quando emprestou?</string>
+    <string name="datePicker_recebimento_label">Quando vai receber?</string>
+    
+    <!-- Activity Lista Pegou Emprestado -->
+    <string name="title_activity_lista_pegouemprestado">Pegou emprestado</string>
+    <string name="btn_novo_pegaremprestado_label">Novo Pegar Emprestado</string>
+    
+    <!-- Activity Pegar Emprestado -->
+    <string name="title_activity_pegaremprestado">Pegar emprestado</string>
+    <string name="txt_obj_recebido_label">O que pegou?</string>
+    <string name="txt_de_quem_pegou_label">De quem pegou?</string>
+    <string name="datePicker_pegou_label">Quando pegou?</string>
+    <string name="datePicker_devolucao_label">Quando vai devolver?</string>
+    
+	<!-- Menu -->
+	<string name="options_menu">Configuração</string>
+	
+	<!-- Mensagens Toast -->
+	<string name="toast_salvo_sucesso">Salvo com sucesso</string>
+	<string name="toast_deletado_sucesso">Deletado com sucesso</string>
+
+	<!-- Mensagens Dialogs -->
+	<string name="dialog_deletar_item">Deseja deletar o item selecionado?</string>
+	<string name="dialog_sim">Sim</string>
+	<string name="dialog_nao">Não</string>
+	
+	<!-- Mensagens Validação -->
+	<string name="validacao_campo_obrigatorio">Obrigatório</string>
+			
+</resources>
